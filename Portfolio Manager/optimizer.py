@@ -76,6 +76,7 @@ class Optimizer:
         return (vol, mean_daily, sharpe, cum_ret)
 
     def optimize(self):
+        #TODO: use gradient ascent in place of nested for loop
         best = [0,[]]
         fraction = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
         for a in fraction:
