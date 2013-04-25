@@ -3,7 +3,8 @@ Augmented Trader
 
 Independent Python Project on Computational Investment
 
-<ul>Main Functions
+
+Main Functions<ul>
 <li>Portfolio Optimization based on Yahoo Data Feed</li>
 <li>Event Profiling</li>
 <li>Automated order generation based on historical event feeds</li>
@@ -11,11 +12,11 @@ Independent Python Project on Computational Investment
 <li>Rolling statstics and Bollinger-band quantification</li>
 </ul>
 
-keywords: time-series | technical analysis | back-testing | numpy | pandas DF | QSTK | rolling statistics |
+keywords: time-series | technical analysis | back-testing | numpy | pandas DF | QSTK | rolling statistics | data access and visualization |
 
 <h3>Sample Output and Demo</h3>
 
-<div>Portfolio Optimizer</div>
+<h4>Portfolio Optimizer</h4>
 <pre>
 Start Date: January 1, 2011
 End Date: December 31, 2011
@@ -27,7 +28,46 @@ Average Daily Return:  0.000657261102001
 Cumulative Return:  1.16487261965
 </pre>
 
-<div>Market Simulator</div>
+<h4>Market Simulator</h4>
+<pre>
+FOR THE CASE OF END DATE 2009/12/30:
+2009,12,23,AMGN,Sell,100 
+2009,12,23,CELG,Sell,100 
+2009,12,23,CTAS,Buy,100 
+2009,12,23,ESRX,Sell,100 
+2009,12,23,STZ,Sell,100 
+2009,12,23,TWC,Buy,100 
+2009,12,23,USB,Sell,100 
+2009,12,23,WMT,Sell,100 
+2009,12,28,HAR,Buy,100 
+2009,12,29,APD,Sell,100 
+2009,12,29,CAG,Sell,100 
+2009,12,29,NEM,Sell,100 
+2009,12,29,PG,Sell,100 
+2009,12,29,SIAL,Sell,100 
+2009,12,30,CTAS,Sell,100 
+2009,12,30,HAR,Sell,100 
+2009,12,30,TWC,Sell,100
+
+FOR THE CASE OF END DATE 2009/12/31:
+2009,12,23,AMGN,Sell,100 
+2009,12,23,CELG,Sell,100 
+2009,12,23,CTAS,Buy,100 
+2009,12,23,ESRX,Sell,100 
+2009,12,23,STZ,Sell,100 
+2009,12,23,TWC,Buy,100 
+2009,12,23,USB,Sell,100 
+2009,12,23,WMT,Sell,100 
+2009,12,28,HAR,Buy,100 
+2009,12,29,APD,Sell,100 
+2009,12,29,CAG,Sell,100 
+2009,12,29,NEM,Sell,100 
+2009,12,29,PG,Sell,100 
+2009,12,29,SIAL,Sell,100 
+2009,12,31,CTAS,Sell,100 
+2009,12,31,HAR,Sell,100 
+2009,12,31,TWC,Sell,100
+</pre>
 <pre>
 The final value of the portfolio using the sample file is -- 2011,12,20,1133860
 
@@ -49,9 +89,10 @@ Average Daily Return of $SPX : 1.72238432443e-05
 </pre>
 <img src="http://farm9.staticflickr.com/8259/8681834976_6cee953c8b_z.jpg" />
 
-<div>Bollinger Bands</div>
-<img src="http://farm9.staticflickr.com/8116/8681844036_a0029286df_z.jpg" />
-<br />
+<h4>Rolling Statistics</h4>
 <img src="http://farm9.staticflickr.com/8257/8681848582_7c39e78766_z.jpg" />
+<br />
+<img src="http://farm9.staticflickr.com/8116/8681844036_a0029286df_z.jpg" />
+
 
 &copy;zhengshu@mit.edu
